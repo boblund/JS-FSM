@@ -65,7 +65,7 @@ fsmDef = {
 
 Below is an example of an FSM for a telephone call. 
 
-![](CallFSM.png)
+![](CallFSM-700px.png)
 
 A call has originating and terminating ends, each with it's own path through the state machine. Notice that FSM events pass between states but are stimulated by external events. There are also external events exchanged between originating and terminating FSMs. While these external events are not part of the call FSM per se, they are essential to an accurate model of a call.
 
